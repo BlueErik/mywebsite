@@ -1,19 +1,75 @@
-<html>
-    <h1>
-        Hey, I'm Bach (Erik)
-    </h1>
-    <body>
-        <h2>
-            About Me
-        </h2>
-        <p>
-            I love data
-        </p>
-        <h2>
-            What I'm working on right now
-        </h2>
-        <p>
-            I'm trying to create my own website
-        </p>
-    </body>
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<!-- Example: -->
+<a href="https://linkedin.com/in/bachle-426347176" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://github.com/BlueErik" target="_blank"><i class="fab fa-github"></i></a>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bach Le | Data Analyst Portfolio</title>
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Bach Le</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Bach Le, a data analyst with a passion for transforming data into actionable insights. Proficient in Python, SQL, Power BI, and Excel. Here to showcase my journey and projects in data analysis.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Portfolio</h2>
+        <div class="project-card">
+            <h3>Interactive Python Dash Dashboard</h3>
+            <p>A dashboard developed using Dash and Plotly to visualize manufacturing data and provide insights.</p>
+            <a href="#" class="btn">View Dashboard</a>
+        </div>
+        <!-- Add more project cards here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind or just want to say hello? Reach out!</p>
+        <form action="https://formspree.io/bachle215@gmail.com" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="_replyto" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bach Le. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
 </html>
