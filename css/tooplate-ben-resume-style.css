@@ -423,16 +423,18 @@ https://www.tooplate.com/view/2120-ben-resume
   font-size: 1.5rem; /* Match subheading size from About */
   font-weight: 600;
   color: #333; /* Consistent heading color */
-  margin-bottom: 0.5rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
 }
 
 .project-info p {
   font-size: 1rem; /* Standard paragraph size */
+  text-align: left !important;
   line-height: 1.6;
   margin-bottom: 1.5rem; /* Add some space below description */
 }
 .projects {
-  margin-bottom: 4rem; /* Ensure adequate space between sections */
+  margin-bottom: 1rem; /* Ensure adequate space between sections */
 }
 
   /*---------------------------------------
